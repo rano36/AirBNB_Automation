@@ -6,7 +6,6 @@ public class PaymentForm {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            // Ввод данных платежа
             System.out.println("=== Платёжная форма ===");
             System.out.print("Введите сумму: ");
             double amount = scanner.nextDouble();
@@ -32,4 +31,4 @@ public class PaymentForm {
         }
     }
 
-}
+
